@@ -8,6 +8,7 @@ from functions import try_md5, try_sha1, try_sha224, try_sha256, try_sha384, try
 def convert(n):
     return str(datetime.timedelta(seconds = n))
 
+print("Welcome to",fg("red"), "b.o.h.c.", fg("white"), "-", fg("red"), "badly optimized hash cracker",fg("white"))
 inputhash = input("Insert an hash value (max output length = 8): ")
 hashlength = len(inputhash)   
 
