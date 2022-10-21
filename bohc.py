@@ -41,7 +41,7 @@ elif hashlength == 64:
     time.sleep(1)
     print(fg("cyan"), "Start cracking...")
     time.sleep(1)
-    starttime = time.time()
+    starttime = time.time() 
     print(fg("red"), "Password found: ", fg("yellow"), try_sha256(inputhash))
     print(fg("white"), "Time elapsed: ", fg('cyan'), convert(round((time.time() - starttime), 2)), fg('white'), "seconds")
 elif hashlength == 96:
@@ -49,7 +49,7 @@ elif hashlength == 96:
     time.sleep(1)
     print(fg("cyan"), "Start cracking...")
     time.sleep(1)
-    starttime = time.time()
+    starttime = time.time()   
     print(fg("red"), "Password found: ", fg("yellow"), try_sha384(inputhash))
     print(fg("white"), "Time elapsed: ", fg('cyan'), convert(round((time.time() - starttime), 2)), fg('white'), "seconds")
 elif hashlength == 128:
